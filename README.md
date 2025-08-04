@@ -1,6 +1,6 @@
 # Simple Video Player
 
-![screenshot](screenshot.pnh "Sample")
+![screenshot](screenshot.png "Sample")
 
 - [video.js](https://videojs.com/)
 - [videojs-playlist](https://github.com/videojs/videojs-playlist)

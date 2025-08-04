@@ -18,8 +18,8 @@ function simpleVideoPlayer(
     $documentRoot = null,
     $serverName = null
 ) {
-    $documentRoot = $documentRoot ?: $_SERVER['DOCUMENT_ROOT'];
-    $serverName = $serverName ?: $_SERVER['SERVER_NAME'];
+    $documentRoot = null === $documentRoot ? $_SERVER['DOCUMENT_ROOT'] : $documentRoot;
+    $serverName = null === $serverName ? $_SERVER['SERVER_NAME'] : $serverName;
 
     $result = array();
     $videoDir = $documentRoot . '/' . $videoPath;

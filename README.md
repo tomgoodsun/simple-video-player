@@ -18,7 +18,7 @@ Create `videos` directory under the document root and put MP4 files.
 
 Execute `docker-compose up -d` and put MP4 files to `html/videos/`
 
-# Why PHP 5.5?
+## Why PHP 5.5?
 
 Because I need to run on the PHP 5.5 Server.
 Also available on the latest PHP.

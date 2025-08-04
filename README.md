@@ -1,5 +1,7 @@
 # Simple Video Player
 
+![screenshot](screenshot.pnh "Sample")
+
 - [video.js](https://videojs.com/)
 - [videojs-playlist](https://github.com/videojs/videojs-playlist)
 - [videojs-playlist-ui](https://github.com/videojs/videojs-playlist-ui)
@@ -13,6 +15,8 @@ simpleVideoPlayer('videos');
 ```
 
 Create `videos` directory under the document root and put MP4 files.
+
+Sample videos using in screenshot: https://www.home-movie.biz/free_movie.html
 
 ## How to develop
 

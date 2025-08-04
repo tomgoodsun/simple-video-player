@@ -1,0 +1,13 @@
+# Use php 5.5
+version: '3.7'
+services:
+  php:
+    image: php:5.5-apache
+    container_name: simple-video-player
+    ports:
+      - "80:80"
+    volumes:
+      - ./:/var/www
+    environment:
+      - DOCUMENT_ROOT=/var/www/html
+      - SERVER_NAME=localhost
